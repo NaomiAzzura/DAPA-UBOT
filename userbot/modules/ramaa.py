@@ -56,6 +56,19 @@ async def typewriter(typew):
     await typew.edit("**Jeje,Mengintil✅**")
     sleep(3)
     await typew.edit("**CUMA RAMA YANG BENER!**")
+    
+@register(outgoingg=True, pattern='^.geez(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**ASSALAMUALAIKUM**")
+    sleep(1)
+     await typew.edit("**Gua Mau Pantun Nih Gesss**")
+    sleep(2)
+    await typew.edit("**Ikan Sepat**")
+    sleep(2)
+    await typew.edit("**Makan Saos**")
+    sleep(3)
+    await typew.edit("**KENALIN 404 NIH BOS!**")
 
 # Create by myself @localheart
 
