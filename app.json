@@ -1,6 +1,6 @@
 {
-  "name": "DAPA-UBOT",
-  "description": "[DAPA-UBOT] Let's Fun On Telegram.",
+  "name": "NAOMI-UBOT",
+  "description": "[NAOMI-UNOT] Let's Fun On Telegram.",
   "logo": "https://telegra.ph/file/ce6e9d746f554aef0c4d0.jpg",
   "keywords": [
     "telegram",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Daffansaa/DAPA-UBOT",
+  "repository": "https://github.com/NaomiAzzura/NAOMI-UBOT",
   "telegram": "https://t.me/MadBoyys",
   "success_url": "https://t.me/saddestpeople",
   "stack": "container",
@@ -102,7 +102,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "🔥DAPA-UBOT🔥",
+      "value": "🔥NAOMI-UBOT🔥",
       "required": false
     },
     "ALIVE_NAME": {
