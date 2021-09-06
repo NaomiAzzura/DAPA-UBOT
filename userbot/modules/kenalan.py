@@ -6,11 +6,11 @@ from userbot.events import register
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("`Hai Perkenalkan Namaku Daffansaa`")
+    await typew.edit("`Hai Perkenalkan Namaku Naomi`")
     sleep(3)
-    await typew.edit("`16 Tahun`")
+    await typew.edit("`17 Tahun`")
     sleep(1)
-    await typew.edit("`Tinggal Di Bandung, Salam Kenal Ya Ngentot...`")
+    await typew.edit("`Tinggal Di Puncak Bogor, Salam Kenal Ya Ngentot...`")
 # Create by myself @localheart
 
 
@@ -22,7 +22,7 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("`Aku Sayang Kamu`")
     sleep(1)
-    await typew.edit("`I LOVE YOU 💞`")
+    await typew.edit("`Ngewe yu 💞`")
 # Create by myself @localheart
 
 
