@@ -9,7 +9,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 @register(outgoing=True, pattern='^P(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("𝐀𝐒𝐒𝐀𝐋𝐀𝐌𝐔𝐀𝐋𝐀𝐈𝐊𝐔𝐌 𝐃𝐔𝐋𝐔....")
+    await typew.edit("ASSALAMUALAIKUM ANAK ANAK AYAM....")
 
 
 @register(outgoing=True, pattern='^.atg(?: |$)(.*)')
@@ -51,7 +51,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^M(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**𝐁𝐇𝐀𝐀𝐀𝐊𝐒𝐒𝐒𝐒𝐒𝐒𝐒𝐒𝐒**")
+    await typew.edit("**JIAAAAKKKKKHHHHH**")
 
 
 @register(outgoing=True, pattern='^Y(?: |$)(.*)')
@@ -129,13 +129,13 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^PKP(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("FAMILY 404 NOT FOUND NIH BOSS!!!")
+    await typew.edit("FAMILY MART NIH BOSS!!!")
 
 
 @register(outgoing=True, pattern='^PNB(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("404 LEWAT NIH BOSS!!!")
+    await typew.edit("MART LEWAT NIH BOSS!!!")
     
 @register(outgoing=True, pattern='^.B(?: |$)(.*)')
 async def typewriter(typew):
